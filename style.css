@@ -18,7 +18,7 @@ section{
 }
 
 .hero h1{
-    font-size:56px;
+    font-size:36px;
     margin-bottom:20px;
 }
 
@@ -39,6 +39,7 @@ button{
     cursor:pointer;
 }
 .logo{
-    width: 110px;
-    height:auto;
+    width: 220px;
+    height: auto;
+    margin-bottom: 20px;
 }

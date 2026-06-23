@@ -205,3 +205,11 @@ h2{
     color:#b8860b;
     font-size:22px;
 }
+
+.registration-note{
+    margin-top:20px;
+    font-size:13px;
+    color:#6b7280;
+    text-align:center;
+    line-height:1.7;
+}

@@ -179,3 +179,30 @@ h2{
         font-size:18px;
     }
 }
+.conversation-pillars{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    margin:50px 0;
+    flex-wrap:wrap;
+}
+
+.pillar{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:28px;
+    color:#1f2937;
+    font-weight:500;
+}
+
+.pillar-icon{
+    width:52px;
+    height:52px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:2px solid #d4a017;
+    border-radius:50%;
+    font-size:24px;
+}

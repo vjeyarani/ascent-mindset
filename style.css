@@ -182,7 +182,8 @@ h2{
 .conversation-pillars{
     display:flex;
     justify-content:center;
-    gap:50px;
+    align-items:center;
+    gap:24px;
     margin:50px 0;
     flex-wrap:wrap;
 }
@@ -190,19 +191,17 @@ h2{
 .pillar{
     display:flex;
     align-items:center;
-    gap:12px;
-    font-size:28px;
-    color:#1f2937;
+    gap:10px;
+    font-size:24px;
     font-weight:500;
+    color:#1f2937;
 }
 
-.pillar-icon{
-    width:52px;
-    height:52px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    border:2px solid #d4a017;
-    border-radius:50%;
-    font-size:24px;
+.icon{
+    font-size:28px;
+}
+
+.separator{
+    color:#b8860b;
+    font-size:22px;
 }

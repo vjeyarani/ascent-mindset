@@ -213,3 +213,34 @@ h2{
     text-align:center;
     line-height:1.6;
 }
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1100px;
+    margin:auto;
+    padding:25px 30px;
+}
+
+.logo{
+    font-size:16px;
+    letter-spacing:3px;
+    font-weight:600;
+    color:#1f2937;
+}
+
+.navbar nav{
+    display:flex;
+    gap:35px;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:#1f2937;
+    font-size:15px;
+    font-weight:500;
+}
+
+.navbar a:hover{
+    color:#b8860b;
+}

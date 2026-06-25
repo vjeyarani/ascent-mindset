@@ -20,12 +20,12 @@ padding:0 30px;
 }
 
 .navbar{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:25px 30px;
-max-width:1100px;
-margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1100px;
+    margin:0 auto 25px;
+    padding:30px 30px 20px;
 }
 
 .logo a{
@@ -52,8 +52,8 @@ color:#b8860b;
 }
 
 .hero{
-padding:90px 0;
-text-align:center;
+    text-align:center;
+    padding:90px 20px 90px;
 }
 
 .label{

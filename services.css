@@ -101,15 +101,15 @@ margin-bottom:10px;
 
 .card h2{
 font-family:'Playfair Display',serif;
-font-size:38px;
+font-size:34px;
 margin-bottom:15px;
 }
 
 .tagline,
 .mission{
-font-size:22px;
-margin-bottom:20px;
-color:#444;
+    font-size:18px;
+    line-height:1.8;
+    color:#4b5563;
 }
 
 .mission{
@@ -121,10 +121,10 @@ ul{
 list-style:none;
 margin-top:25px;
 }
-
 li{
-padding:10px 0;
-font-size:20px;
+    font-size:17px;
+    line-height:2;
+    padding:5px 0;
 }
 
 .btn{

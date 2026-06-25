@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Inter',sans-serif;
+background:#fff;
+color:#1f2937;
+line-height:1.8;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:0 30px;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 30px;
+max-width:1100px;
+margin:auto;
+}
+
+.logo a{
+text-decoration:none;
+color:#1f2937;
+letter-spacing:3px;
+font-weight:600;
+}
+
+nav{
+display:flex;
+gap:35px;
+}
+
+nav a{
+text-decoration:none;
+color:#1f2937;
+font-weight:500;
+}
+
+nav a:hover,
+nav a.active{
+color:#b8860b;
+}
+
+.hero{
+padding:90px 0;
+text-align:center;
+}
+
+.label{
+color:#b8860b;
+letter-spacing:3px;
+font-size:13px;
+margin-bottom:20px;
+font-weight:600;
+}
+
+.hero h1{
+font-family:'Playfair Display',serif;
+font-size:68px;
+line-height:1.1;
+margin-bottom:25px;
+}
+
+.intro{
+max-width:760px;
+margin:auto;
+font-size:23px;
+color:#555;
+}
+
+.services{
+padding:30px 0 80px;
+}
+
+.card{
+background:#fafafa;
+padding:45px;
+margin-bottom:40px;
+border-radius:16px;
+}
+
+.featured{
+border:2px solid #b8860b;
+background:white;
+}
+
+.price{
+font-size:34px;
+font-weight:700;
+color:#b8860b;
+margin-bottom:10px;
+}
+
+.card h2{
+font-family:'Playfair Display',serif;
+font-size:38px;
+margin-bottom:15px;
+}
+
+.tagline,
+.mission{
+font-size:22px;
+margin-bottom:20px;
+color:#444;
+}
+
+.mission{
+color:#b8860b;
+font-weight:600;
+}
+
+ul{
+list-style:none;
+margin-top:25px;
+}
+
+li{
+padding:10px 0;
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:35px;
+padding:15px 34px;
+background:#b8860b;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-weight:600;
+}
+
+.closing{
+padding:100px 0;
+text-align:center;
+}
+
+.closing h2{
+font-family:'Playfair Display',serif;
+font-size:52px;
+margin-bottom:20px;
+}
+
+.closing p{
+font-size:24px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:46px;
+}
+
+.card{
+padding:30px;
+}
+
+.card h2{
+font-size:30px;
+}
+
+.intro,
+.tagline,
+.mission,
+li{
+font-size:18px;
+}
+
+.closing h2{
+font-size:36px;
+}
+
+}

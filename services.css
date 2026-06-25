@@ -54,6 +54,11 @@ color:#b8860b;
 .hero{
     padding:70px 20px 90px;
 }
+.intro{
+    font-size:20px;
+    line-height:1.9;
+    color:#4b5563;
+}
 .label{
 color:#b8860b;
 letter-spacing:3px;
@@ -169,9 +174,16 @@ font-size:30px;
 
 .intro,
 .tagline,
-.mission,
+.mission{
+    font-size:18px;
+    line-height:1.8;
+    color:#4b5563;
+}
+
 li{
-font-size:18px;
+    font-size:17px;
+    line-height:1.8;
+    color:#374151;
 }
 
 .closing h2{
